@@ -1,0 +1,14 @@
+version: "1.0"
+runtime: "python"
+entrypoint: "python -m bot"
+
+environment:
+  variables:
+    TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+    OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    GOOGLE_SHEETS_CREDENTIALS_FILE: ${{ secrets.GOOGLE_CREDENTIALS }}
+    SPREADSHEET_NAME: ${{ secrets.SPREADSHEET_NAME }}
+    SCHEDULE_DAY_OF_WEEK: "mon"  # Понедельник
+    SCHEDULE_HOUR: "9"           # 9:00 утра
+    SCHEDULE_MINUTE: "0"
+    ADMIN_IDS: ${{ secrets.ADMIN_IDS }}  # ID через запятую, например: "123,456"

@@ -169,3 +169,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Конфиденциальные данные
+
+service_account.json  #
+
+
