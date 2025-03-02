@@ -26,5 +26,5 @@ ADMIN_IDS = os.getenv("ADMIN_IDS", "")
 ADMIN_IDS = [int(admin.strip()) for admin in ADMIN_IDS.split(",") if admin.strip()]
 # config.py
 # Период новостей: брать новости за последние X дней
-NEWS_PERIOD_DAYS = 2 # Новости за последние 5 дней
+NEWS_PERIOD_DAYS = 5 # Новости за последние 5 дней
 
