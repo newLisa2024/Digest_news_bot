@@ -134,7 +134,7 @@ docker run -d --name digest-bot digest-news-bot
 
 ## Контакты и поддержка
 
-- Автор: [Елена](https://t.me/username) (пример)
+- Автор: [Елена](https://t.me/Elena_PromptLab) (telegram)
 - Вопросы и предложения: создавать Issue в GitHub или писать в личные сообщения в Telegram.
 
 ---
